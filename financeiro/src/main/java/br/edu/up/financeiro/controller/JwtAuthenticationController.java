@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.up.financeiro.Config.JwtTokenUtil;
-import br.edu.up.financeiro.Service.JwtUserDetailsService;
+import br.edu.up.financeiro.config.JwtTokenUtil;
 import br.edu.up.financeiro.entity.JwtRequest;
 import br.edu.up.financeiro.entity.JwtResponse;
+import br.edu.up.financeiro.service.JwtUserDetailsService;
 
 @RestController
 @CrossOrigin
