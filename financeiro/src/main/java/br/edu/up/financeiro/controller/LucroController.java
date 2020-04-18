@@ -43,4 +43,9 @@ public class LucroController {
 		repository.delete(lucro);
 		return lucro;
 	}
+	@GetMapping("/nome={nome}")
+	public Lucro getSomaLucro(@PathVariable float lucro) {
+		Lucro soma = repository.getSomaLucro(lucro);
+		return soma;
+	}
 }
