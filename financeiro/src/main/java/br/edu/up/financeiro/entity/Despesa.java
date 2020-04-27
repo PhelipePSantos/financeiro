@@ -26,7 +26,7 @@ public class Despesa implements Serializable{
 	@Column(name = "valor", nullable = false)
 	private float valor;
 	@Column(name = "setor", nullable = false)
-	private float setor;
+	private String setor;
 	public int getId() {
 		return id;
 	}
@@ -39,10 +39,10 @@ public class Despesa implements Serializable{
 	public void setValor(float valor) {
 		this.valor = valor;
 	}
-	public float getSetor() {
+	public String getSetor() {
 		return setor;
 	}
-	public void setSetor(float setor) {
+	public void setSetor(String setor) {
 		this.setor = setor;
 	}
 	
